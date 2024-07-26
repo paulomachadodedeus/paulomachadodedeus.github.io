@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: rgb(48,148,91);
+    background: linear-gradient(180deg, rgba(48,148,91,1) 0%, rgba(244,243,218,1) 100%);
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.foto{
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px white;
+    border: 3px solid white;
+}
+
+h1{
+    font-family: "Architects Daughter", cursive;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+h2{
+    font-size: 16px;
+
+}
+
+.profile{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links-social{
+    font-family: "Raleway", sans-serif;
+    list-style: none;
+}
+
+.links-social li{
+margin: 20px;
+border-radius: 20px;
+background-color: white;
+box-shadow: 0 0 15px white ;
+
+}
+
+.links-social li a{
+    color:rgb(246,105,7);
+    display: block;
+    padding: 20px 25px;
+    text-decoration:none;
+    font-weight: bold;
+    
+}
+.links-social li a span{
+    color: black;
+    display: block;
+    margin-top: 10px;
+}
+
+.em em-shopping_bags{
+    margin-left: 3px;
+}
